@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LibrarySystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewBookcopyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveBookcopyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBookcopyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddBookcopyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookCopiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VeiwBookloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveBookloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBookloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddBookloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAuthorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveAuthorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateAuthorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddAuthorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveBranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddBranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemovePublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewpPublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookLoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".multi_lines"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthorActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

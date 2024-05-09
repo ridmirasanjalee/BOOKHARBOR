@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back103"
+    tools:context=".AddBookloanActivity">
+
+    <EditText
+        android:id="@+id/etAccessNo"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Access No"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/etBranchId"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Branch Id"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <EditText
+        android:id="@+id/etMemberId"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Member Id"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/etDateOut"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Date Out"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/etDateDue"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Date Due"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/etDateReturned"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Date Returned"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkGreen"
+        android:text="Save"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

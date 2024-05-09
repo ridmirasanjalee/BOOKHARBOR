@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBBB6FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF370083</color>
+    <color name="teal_200">#FF030AC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimaryDark1">#3262C4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorRed">#C11515</color>
+    <color name="purpleDark">#FF210642</color>
+    <color name="yellowLight">#fff777</color>
+    <color name="seaformgreen">#9FE2BF</color>
+
+    <color name="colorPrimary1">#4CAF50</color>
+    <color name="colorPrimaryDark2">#388E3C</color>
+    <color name="colorAccent2">#8BC34A</color>
+    <color name="colorLightGreen">#C8E6C9</color>
+    <color name="colorDarkGreen">#2E7D32</color>
+    <color name="colorLime">#CDDC39</color>
+    <color name="colorGreenLight">#81C784</color>
+    <color name="colorGreenDark">#689F38</color>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#009688</color> <!-- Teal -->
+    <color name="colorLightBlue">#B3E5FC</color> <!-- Light Blue -->
+    <color name="colorDarkBlue">#01579B</color> <!-- Deep Blue -->
+    <color name="colorAqua">#00BCD4</color> <!-- Aqua -->
+    <color name="colorTealLight">#4DB6AC</color> <!-- Light Teal -->
+    <color name="colorTealDark">#00796B</color> <!-- Dark Teal -->
+
+
+
+
+</resources>
